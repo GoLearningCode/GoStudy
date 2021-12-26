@@ -9,5 +9,6 @@ import (
 
 func main() {
 	routes.RootRoute()
+	routes.PostRoute()
 	log.Fatal(http.ListenAndServe(":3000", nil))
 }
