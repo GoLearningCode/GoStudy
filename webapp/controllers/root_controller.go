@@ -5,6 +5,6 @@ import (
 	"net/http"
 )
 
-func RootController(writer http.ResponseWriter, response *http.Request) {
+func RootController(writer http.ResponseWriter, request *http.Request) {
 	fmt.Fprintf(writer, "Welcome to the web app!")
 }
